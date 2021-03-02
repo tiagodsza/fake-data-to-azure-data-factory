@@ -1,3 +1,3 @@
 git add --all
-git commit -am
-git push ori
+git commit -am "Commit"
+git push origin master
