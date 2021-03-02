@@ -12,6 +12,6 @@ while True:
         row = {'date': datetime.datetime.now(), 'value': random.randint(1, 1000)}
         dict_writer.writerow(row)
         os.system('git add --all')
-        os.system('git commit -am "Commit"')
+        os.system('git commit -am "Comit automatico"')
         os.system('git push origin master')
     sleep(300)
